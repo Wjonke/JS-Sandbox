@@ -5,6 +5,7 @@ function nextEdge(side1, side2) {
 	return (side1 + side2) - 1
 }
 
+
 // Is the Number Even or Odd?
 // Create a function that takes a number as an argument and returns "even" for even numbers and "odd" for odd numbers.
 function isEvenOrOdd(num) {
@@ -14,6 +15,7 @@ function isEvenOrOdd(num) {
 		return 'odd';
 	}
 }
+
 
 // Is the Number Less than or Equal to Zero?
 // Create a function that takes a number as its only argument and returns true if it's less than or equal to zero, otherwise return false.
@@ -26,12 +28,14 @@ function lessThanOrEqualToZero(num) {
 	}
 }
 
+
 // Char-to-ASCII
 // Create a function that returns the ASCII value of the passed in character.
 
 function ctoa(c) {
 	return c.charCodeAt(0);
 }
+
 
 // Check String for Spaces
 // Create a function that returns true if a string contains any spaces.
@@ -48,3 +52,12 @@ function ctoa(c) {
   function isPlural(word) {
     return word.endsWith("s");
   }
+
+
+//   Return the Total Number of Parameters
+// Create a function that returns the total number of parameters passed in.
+
+function numberArgs() {
+	return numberArgs.arguments.length;
+}
+
